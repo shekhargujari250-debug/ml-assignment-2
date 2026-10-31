@@ -1,0 +1,96 @@
+{
+  "target": "Target",
+  "features": [
+    "Marital status",
+    "Application mode",
+    "Application order",
+    "Course",
+    "Daytime/evening attendance",
+    "Previous qualification",
+    "Previous qualification (grade)",
+    "Nacionality",
+    "Mother's qualification",
+    "Father's qualification",
+    "Mother's occupation",
+    "Father's occupation",
+    "Admission grade",
+    "Displaced",
+    "Educational special needs",
+    "Debtor",
+    "Tuition fees up to date",
+    "Gender",
+    "Scholarship holder",
+    "Age at enrollment",
+    "International",
+    "Curricular units 1st sem (credited)",
+    "Curricular units 1st sem (enrolled)",
+    "Curricular units 1st sem (evaluations)",
+    "Curricular units 1st sem (approved)",
+    "Curricular units 1st sem (grade)",
+    "Curricular units 1st sem (without evaluations)",
+    "Curricular units 2nd sem (credited)",
+    "Curricular units 2nd sem (enrolled)",
+    "Curricular units 2nd sem (evaluations)",
+    "Curricular units 2nd sem (approved)",
+    "Curricular units 2nd sem (grade)",
+    "Curricular units 2nd sem (without evaluations)",
+    "Unemployment rate",
+    "Inflation rate",
+    "GDP"
+  ],
+  "classes": [
+    "Dropout",
+    "Enrolled",
+    "Graduate"
+  ],
+  "model_files": {
+    "Logistic Regression": "logistic_regression.joblib",
+    "Decision Tree": "decision_tree.joblib",
+    "KNN": "knn.joblib",
+    "Naive Bayes": "naive_bayes.joblib",
+    "Support Vector Machine": "support_vector_machine.joblib"
+  },
+  "test_metrics": {
+    "Logistic Regression": {
+      "Accuracy": 0.7559322033898305,
+      "AUC": 0.875406594331232,
+      "Precision": 0.6907790999972732,
+      "Recall": 0.6593275705725097,
+      "F1": 0.6674753978515161,
+      "MCC": 0.5943169072210905
+    },
+    "Decision Tree": {
+      "Accuracy": 0.727683615819209,
+      "AUC": 0.835792149403682,
+      "Precision": 0.6754178596376553,
+      "Recall": 0.652552932972967,
+      "F1": 0.6601852343165443,
+      "MCC": 0.551901480225554
+    },
+    "KNN": {
+      "Accuracy": 0.7129943502824859,
+      "AUC": 0.8169577595102333,
+      "Precision": 0.6750747639818467,
+      "Recall": 0.5926632487183362,
+      "F1": 0.6033155469174099,
+      "MCC": 0.5258617671762308
+    },
+    "Naive Bayes": {
+      "Accuracy": 0.6700564971751413,
+      "AUC": 0.7787053088690215,
+      "Precision": 0.595018333223812,
+      "Recall": 0.5785199877562043,
+      "F1": 0.5833273588128796,
+      "MCC": 0.45153557549766965
+    },
+    "Support Vector Machine": {
+      "Accuracy": 0.752542372881356,
+      "AUC": 0.8754808736233423,
+      "Precision": 0.6976972510463915,
+      "Recall": 0.6521991401819761,
+      "F1": 0.6627794268670778,
+      "MCC": 0.5887236414093457
+    }
+  },
+  "seed": 26
+}
