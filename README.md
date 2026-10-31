@@ -44,7 +44,7 @@ evaluates the saved models on an uploaded test CSV.
 ## c. GitHub Repository Link
 
 **Repository:** https://github.com/shekhargujari250-debug/ml-assignment-2
-**Live Streamlit App:** `<PASTE YOUR STREAMLIT APP URL HERE>`
+**Live Streamlit App:** https://shekhargujari250-debug-ml-assignment-2-app-82johd.streamlit.app
 
 ```
 ml-assignment-2/
